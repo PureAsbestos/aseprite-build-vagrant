@@ -5,7 +5,7 @@
 
 Vagrant.configure("2") do |config|
 
-  config.vm.box = "aseprite-build.box"
+  config.vm.box = "pureasbestos/aseprite-build-win64"
 
   # Disable automatic box update checking.
   config.vm.box_check_update = false
