@@ -1,2 +1,2 @@
 # aseprite-build-vagrant
-Build Aseprite with VirtualBox and Vagrant (Windows 64-bit).
+Build Aseprite (Windows 64-bit) with VirtualBox and Vagrant.
