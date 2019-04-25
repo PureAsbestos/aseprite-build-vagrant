@@ -5,12 +5,9 @@
 
 Vagrant.configure("2") do |config|
 
-  config.vm.box = "aseprite-build.box"
+  config.vm.box = "pureasbestos/aseprite-build-win64"
 
   config.ssh.insert_key = false
-
-  # Disable automatic box update checking.
-  config.vm.box_check_update = false
 
   # Share an additional folder to the guest VM. The first argument is
   # the path on the host to the actual folder. The second argument is
